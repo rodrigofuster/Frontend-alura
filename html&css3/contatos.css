@@ -7,7 +7,7 @@ form {
     margin: 40px auto;
 }
 
-form label, form p {
+form label, form legend {
     display: block;
     font-size: 20px;
     margin-bottom: 10px;
@@ -21,6 +21,6 @@ form label, form p {
 }
 
 .checkbox {
-    margin: 20px;
+    margin: 20px 0;
 
 }
