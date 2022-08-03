@@ -96,10 +96,7 @@ footer {
     margin-top: 20px;
 }
 
-main {
-    width: 940px;
-    margin: 0 auto;
-}
+
 
 form {
     margin: 40px auto;
@@ -175,6 +172,8 @@ th {
     padding: 3em 0;
     text-align: center;
     background: #ffffff;
+    width: 940px;
+    margin: 0 auto;
 }
 
 .principal p {
@@ -191,6 +190,12 @@ th {
 
 .mapa {
     padding: 3em 0;
+    background: linear-gradient(#fff, #888888);
+}
+
+.mapa-conteudo {
+    width: 940px;
+    margin: 0 auto;
 }
 
 .mapa p {
@@ -226,6 +231,8 @@ th {
 }
 .itens {
     line-height: 1.5;
+    font-size: 16;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .itens:first-child {
