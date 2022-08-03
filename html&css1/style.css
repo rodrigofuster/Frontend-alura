@@ -222,6 +222,7 @@ th {
 
 .img-beneficios {
     width: 60%;
+    box-shadow: 10px 10px 30px  black;
 }
 
 .utensilios {
@@ -235,6 +236,10 @@ th {
     font-family: 'Montserrat', sans-serif;
 }
 
+.itens::before {
+    content: "\2605";
+}
+
 .itens:first-child {
     font-weight: bold;
 }
@@ -243,4 +248,14 @@ th {
 .video {
     width: 560px;
     margin: 2em auto;
+    box-shadow: 10px 10px 30px black;
+
+}
+
+
+
+@media screen  and (max-width: 480px) {
+    .caixa, .principal, .conteudo-beneficios .mapa-conteudo .video {
+        width: auto;
+    }
 }
